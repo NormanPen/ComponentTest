@@ -1,3 +1,15 @@
 <template>
+  <div>
     
+
+      <div class="button-container">
+        <c-custom-button label="Open Overlay" onbuttonclick={handleOverlayButtonClick} class={overlayButtonClass}></c-custom-button>
+        <c-custom-button label="Open Sheet" onbuttonclick={handleSheetButtonClick} class={sheetButtonClass}></c-custom-button>
+        <c-custom-button label="Open Test" onbuttonclick={handleTestButtonClick} class={testButtonClass}></c-custom-button>
+
+      </div>
+      <c-custom-sheet is-open={isSheetOpen}></c-custom-sheet>
+      <c-custom-test is-open={isTestOpen}></c-custom-test>
+      <c-custom-overlay is-open={isOverlayOpen}></c-custom-overlay>
+  </div>
 </template>

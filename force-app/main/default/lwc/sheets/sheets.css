@@ -1,0 +1,15 @@
+/* Füge diese Klasse hinzu, um die Buttons nebeneinander zu positionieren */
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* Wenn der Button aktiv ist, wird die Hintergrundfarbe weiß und die Textfarbe schwarz */
+.active {
+    background-color: pink;
+    color: black;
+}
+.is-inactive {
+    background-color: lightgrey;
+    color: darkgrey;
+}

@@ -1,0 +1,11 @@
+/* customButton.css */
+.custom-button {
+    cursor: pointer;
+    width: 49px;
+    height: 49px;
+    padding: 10px;
+    background-image: url(/sfsites/c/resource/calendar_icon);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
